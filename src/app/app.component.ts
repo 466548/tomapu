@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tomapu';
+  title = 'app tomap';
+  name = 'Angular';
+
+  len = 3;
+
+  membar = {
+    name1: 'Angular',
+    age:'30'
+  };
 }
+ 
